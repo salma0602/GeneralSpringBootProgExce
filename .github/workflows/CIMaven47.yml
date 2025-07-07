@@ -1,0 +1,12 @@
+name: CI for Maven Project
+
+on:
+  workflow_dispatch
+
+  jobs:
+    checkout:
+        runs-on:ubuntu -latest
+        steps:
+          - name: Code checkout
+            uses: actions/checkout@v4.2.2
+                  actions/checkout@6637df21af4dc46d6e3546725eb9bb9a5b9042b5
